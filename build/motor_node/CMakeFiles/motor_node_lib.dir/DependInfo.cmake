@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tulio/CppLinuxSerial/src/SerialPort.cpp" "/home/tulio/motor_node_ws/build/motor_node/CMakeFiles/motor_node_lib.dir/home/tulio/CppLinuxSerial/src/SerialPort.cpp.o"
   "/home/tulio/motor_node_ws/src/motor_node/src/lib/motor_node_01.cpp" "/home/tulio/motor_node_ws/build/motor_node/CMakeFiles/motor_node_lib.dir/src/lib/motor_node_01.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

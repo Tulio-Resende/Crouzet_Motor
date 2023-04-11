@@ -78,14 +78,12 @@ include_directories(
 
 set(${PROJECT_NAME}_HEADERS
   include/${PROJECT_NAME}/motor_node.hpp
-  /usr/local/include/CppLinuxSerial/SerialPort.hpp
   
 
 )
 
 set(${PROJECT_NAME}_SOURCES
   src/lib/motor_node_01.cpp
-  /home/tulio/CppLinuxSerial/src/SerialPort.cpp
   
 )
 

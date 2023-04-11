@@ -602,33 +602,6 @@ motor_node_gennodejs/fast:
 	cd /home/tulio/motor_node_ws/build && $(MAKE) -f motor_node/CMakeFiles/motor_node_gennodejs.dir/build.make motor_node/CMakeFiles/motor_node_gennodejs.dir/build
 .PHONY : motor_node_gennodejs/fast
 
-home/tulio/CppLinuxSerial/src/SerialPort.o: home/tulio/CppLinuxSerial/src/SerialPort.cpp.o
-
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.o
-
-# target to build an object file
-home/tulio/CppLinuxSerial/src/SerialPort.cpp.o:
-	cd /home/tulio/motor_node_ws/build && $(MAKE) -f motor_node/CMakeFiles/motor_node_lib.dir/build.make motor_node/CMakeFiles/motor_node_lib.dir/home/tulio/CppLinuxSerial/src/SerialPort.cpp.o
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.cpp.o
-
-home/tulio/CppLinuxSerial/src/SerialPort.i: home/tulio/CppLinuxSerial/src/SerialPort.cpp.i
-
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.i
-
-# target to preprocess a source file
-home/tulio/CppLinuxSerial/src/SerialPort.cpp.i:
-	cd /home/tulio/motor_node_ws/build && $(MAKE) -f motor_node/CMakeFiles/motor_node_lib.dir/build.make motor_node/CMakeFiles/motor_node_lib.dir/home/tulio/CppLinuxSerial/src/SerialPort.cpp.i
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.cpp.i
-
-home/tulio/CppLinuxSerial/src/SerialPort.s: home/tulio/CppLinuxSerial/src/SerialPort.cpp.s
-
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.s
-
-# target to generate assembly for a file
-home/tulio/CppLinuxSerial/src/SerialPort.cpp.s:
-	cd /home/tulio/motor_node_ws/build && $(MAKE) -f motor_node/CMakeFiles/motor_node_lib.dir/build.make motor_node/CMakeFiles/motor_node_lib.dir/home/tulio/CppLinuxSerial/src/SerialPort.cpp.s
-.PHONY : home/tulio/CppLinuxSerial/src/SerialPort.cpp.s
-
 src/lib/motor_node_01.o: src/lib/motor_node_01.cpp.o
 
 .PHONY : src/lib/motor_node_01.o
@@ -725,9 +698,6 @@ help:
 	@echo "... motor_node_genlisp"
 	@echo "... motor_node_generate_messages_py"
 	@echo "... motor_node_gennodejs"
-	@echo "... home/tulio/CppLinuxSerial/src/SerialPort.o"
-	@echo "... home/tulio/CppLinuxSerial/src/SerialPort.i"
-	@echo "... home/tulio/CppLinuxSerial/src/SerialPort.s"
 	@echo "... src/lib/motor_node_01.o"
 	@echo "... src/lib/motor_node_01.i"
 	@echo "... src/lib/motor_node_01.s"
