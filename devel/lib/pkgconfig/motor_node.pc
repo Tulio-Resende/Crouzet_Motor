@@ -1,0 +1,8 @@
+prefix=/home/tulio/motor_node_ws/devel
+
+Name: motor_node
+Description: Description of motor_node
+Version: 0.0.0
+Cflags: -I/home/tulio/motor_node_ws/devel/include -I/home/tulio/motor_node_ws/src/motor_node/include
+Libs: -L${prefix}/lib -lmotor_node_lib
+Requires: roscpp std_msgs message_runtime

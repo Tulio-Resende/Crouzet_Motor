@@ -1,0 +1,10 @@
+(cl:defpackage motor_node-srv
+  (:use )
+  (:export
+   "VELCOMMUNICATION"
+   "<VELCOMMUNICATION-REQUEST>"
+   "VELCOMMUNICATION-REQUEST"
+   "<VELCOMMUNICATION-RESPONSE>"
+   "VELCOMMUNICATION-RESPONSE"
+  ))
+

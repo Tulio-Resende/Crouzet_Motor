@@ -1,0 +1,2 @@
+motor_node
+-DCATKIN_DEVEL_PREFIX=/home/tulio/motor_node_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tulio/motor_node_ws/install -G Unix Makefiles

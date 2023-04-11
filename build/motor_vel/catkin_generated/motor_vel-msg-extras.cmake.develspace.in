@@ -1,0 +1,2 @@
+set(motor_vel_MESSAGE_FILES "")
+set(motor_vel_SERVICE_FILES "/home/tulio/motor_node_ws/src/motor_vel/srv/VelCommunication.srv")
